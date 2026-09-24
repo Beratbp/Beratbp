@@ -11,10 +11,10 @@
 
 #### ⚙️ Sistem Mimarisi & Metot
 * **Ayrıştırılmış Tamir Döngüleri:**
-  * **İç Tamir (Şirket İçi Atölyeler):** Talep, iç tamir ve tedarik süreleri analiz edilerek kurgulanan *Aylık Envanter Modeli*, *İş Emri Oluşturma* ve *Atölye/Kapasite Atama Modelleri*.
-  * **Dış Tamir (Yurt Dışı Atölyeler):** Uzun tedarik ve lojistik süreleri dikkate alınarak geliştirilen çift eşikli stok kontrol politikaları (`rrQQ / (r, Q)` algoritmaları).
+  * **Şirket İçi Atölyeler:** Talep, iç tamir ve tedarik süreleri analiz edilerek kurgulanan *Aylık Envanter Modeli*, *İş Emri Oluşturma* ve *Atölye/Kapasite Atama Modelleri*.
+  * **Yurt Dışı Atölyeler:** Uzun tedarik ve lojistik süreleri dikkate alınarak geliştirilen çift eşikli stok kontrol politikaları (`rrQQ / (r, Q)` algoritmaları).
 * **Teknik Altyapı:**
-  * **Arka Uç (Python):** Güvenlik stoğu hesaplamaları, yeniden sipariş seviyeleri ve çok parametreli optimizasyon motoru.
+  * **Arka Uç:** Güvenlik stoğu hesaplamaları, yeniden sipariş seviyeleri ve çok parametreli optimizasyon motoru.
   * **Ön Yüz & Karar Destek Arayüzü:** Planlamacıların atölye kapasitelerini, sipariş tetikleyicilerini ve acil alım risklerini simüle edip senaryo analizleri yapabileceği interaktif web paneli.
 
 ---
